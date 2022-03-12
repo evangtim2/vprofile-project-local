@@ -47,7 +47,7 @@ systemctl start tomcat
 systemctl enable tomcat
 
 git clone https://github.com/evangtim2/vprofile-project-local.git
-cd vprofile-project
+cd vprofile-project-local/vprofile-project-local-setup
 mvn install
 systemctl stop tomcat
 sleep 60
